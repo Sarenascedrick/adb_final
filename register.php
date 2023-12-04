@@ -23,7 +23,7 @@ try {
         $result = $conn->query($query);
 
         if ($result->num_rows > 0) {
-            throw new Exception("Email already exists: " . "Email already exists. Registration failed!");
+            throw new Exception("Email already exists: " . "The Email you used is already registered, try a new one");
         }
 
         // Insert user into the database
@@ -63,7 +63,7 @@ try {
             <span class="text-error text-sm"><?= $error ?></span>
             <div class="form-control w-full">
                 <label class="label">
-                    <span class="label-text">Email</span>
+                    <span class="label-text">UserName</span>
                 </label>
                 <input type="text" name="name" placeholder="Enter your name" class="input input-bordered w-full" required />
             </div>

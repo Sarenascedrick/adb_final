@@ -6,7 +6,7 @@ function get_db_connection()
 // Database configuration
     $host = 'localhost';
     $username = 'root';
-    $password = 'Arvy@123';
+    $password = '1234';
     $database = 'netflix_database';
 
     $conn = new mysqli($host, $username, $password, $database);

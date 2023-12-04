@@ -45,14 +45,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                <label class="label">
                    <span class="label-text">Email</span>
                </label>
-               <input type="email" name="email" placeholder="Enter your email" class="input input-bordered w-full" required />
+               <input type="email" name="email" placeholder="Email" class="input input-bordered w-f      ull" required />
            </div>
 
            <div class="form-control w-full">
                <label class="label">
                    <span class="label-text">Password</span>
                </label>
-               <input type="password" name="password" placeholder="Enter your password" class="input input-bordered w-full" required />
+               <input type="password" name="password" placeholder="Your Password" class="input input-bordered w-full" required />
            </div>
            <div class="mt-4">
                <input type="submit" value="Login" class="btn btn-active btn-primary w-full" >
