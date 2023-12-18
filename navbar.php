@@ -1,6 +1,6 @@
 <div class="navbar bg-base-100">
     <div class="flex-1">
-        <a href="index.php" class="btn btn-ghost normal-case text-xl">Movie<span class="text-primary">Zone</span></a>
+        <a href="index.php" class="btn btn-ghost normal-case text-xl">NET<span class="text-primary">Flix v.2</span></a>
     </div>
     <div class="flex-none">
         <?php if (isset($_SESSION["user_id"])) { ?>
